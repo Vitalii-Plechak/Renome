@@ -692,7 +692,7 @@
 .page__404{
   &-images_box{
     position: relative;
-    overflow-y: hidden;
+    overflow: hidden;
   }
   &-images {
     max-width: 100%;

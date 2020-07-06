@@ -184,7 +184,6 @@
   .nav-box {
     padding: unset;
   }
-
   .menu-btn {
     display: block;
     position: absolute;
@@ -245,6 +244,9 @@
   .header__search-icon{
     font-size: 15px;
     line-height: 16px;
+  }
+  .header__form{
+    top: 15px;
   }
   .footer__inner{
     flex-direction: column-reverse;
@@ -857,6 +859,9 @@
   .blog-aside__search-single{
     margin: 0 auto 35px;
   }
+  .header__form{
+    left: -200px;
+  }
 }
 
 @media (max-width: 390px){
@@ -903,6 +908,11 @@
     button+button {
       margin-left: 5px;
     }
+  }
+}
+@media (max-width: 350px){
+  .header__form {
+    left: -180px;
   }
 }
 
