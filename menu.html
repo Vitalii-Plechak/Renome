@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <header class="header header-page" id="logo">
+        <div class="container">
+          <div class="header__inner wow fadeInDown">
+            <a class="header__logo logo" href="index.html">
+              Renome
+            </a>
+            <div class="header__nav-box">
+              <nav class="header__nav">
+                <ul class="header__nav-link">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><i>MENU</i></li>
+                  <li><a href="reservation.html">RESERVATIONS</a></li>
+                  <li><a href="blog.html">BLOG</a></li>
+                  <li><a href="portfolio.html">PORTFOLIO</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+              </nav>
+              <a class="menu-btn menu-btn__white" href="#">
+                <span></span>
+              </a>
+            </div>
+            <div class="header__search-box">
+              <div class="header__search">
+                <div class="header__search-icon icon-search"></div>
+              </div>
+              <form class="header__form">
+                <input type="text" placeholder="Search here..." required>
+                <button type="submit" class="icon-paper-plane-o"></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="menu__page">
+        <div class="menu__page-inner">
+          <div class="menu__page-images_box">
+            <div class="menu__page-images">
+              <img src="images/menu-page.jpg" alt="">
+            </div>
+            <div class="container">
+              <div class="menu__page-text wow bounceIn">
+                menu
+                <span>delicious and beautiful</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="discover section">
+        <div class="container">
+          <div class="discover__inner section__content-inner">
+            <div class="discover__images-box wow fadeInRight">
+              <div class="discover__images-first">
+                <img src="images/discover1.jpg" alt="">
+              </div>
+              <div class="discover__images-second">
+                <img src="images/discover2.jpg" alt="">
+              </div>
+            </div>
+            <div class="discover__content content-inner wow fadeInLeft">
+              <div class="discover__content-title section-title">
+                discover
+                <span>our restaurant menu</span>
+              </div>
+              <div class="discover__content-text">
+                <p>In our menu you will find a great variety of delicious food that will satisfy the needs and tastes of everyone. We
+                strive to source the highest quality ingredients for all of our dishes thereby enhancing the quality of services.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="menu-list">
+        <div class="container">
+          <div class="menu-list__inner">
+            <div class="menu-list__button wow rotateIn">
+              <button type="button" data-filter=".category-breakfast">Breakfast</button>
+              <button type="button" data-filter=".category-lunch">Lunch</button>
+              <button type="button" data-filter=".category-drinks">Drinks</button>
+              <button type="button" data-filter=".category-deserts">Deserts</button>
+            </div>
+            <div class="menu-list__box wow zoomIn">
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-title">
+                  Appetizers
+                </div>
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Chicken wings.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Chicken wings
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        It’s all about flavour and fun, fun, fun. Toss fried chicken with a finger-licking sauce spiked with chilli and fresh
+                        ginger.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$9<i>.95</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Dumplings.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Dumplings
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Small dumplings filled with spiced lamb. Tossed in a tomato sauce and served with sumac-flavoured Greek yoghurt.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$5<i>.70</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/French onion soup.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        French onion soup
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        French onion soup is deeply savoury and hearty - and cheesy croutons make it extra special!
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$5<i>.80</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Mini chilli pretzels.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Mini chilli pretzels
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        These freshly-baked savouries beat anything out of a packet.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$2<i>.10</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-title">
+                  Entrees
+                </div>
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Atlantic Salmon.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Atlantic Salmon
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Have dinner on the table super fast with clever shortcuts and this easy salmon and Greek rice salad.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$7<i>.30</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Fish tacos.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Fish tacos
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Fish is a healthy, low-fat taco filling, and it tastes absolutely delicious.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$5<i>.45</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Sesame Tuna.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Sesame Tuna
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Sesame seeds form a tasty crust and are rich in calcium, copper and magnesium.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$4<i>.60</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Parmesan chicken.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Parmesan chicken
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        This crunchy crumbed chicken tastes fabulous paired with the fresh flavours of zucchini, mint and olives.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$8<i>.35</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-title">
+                  Main Course
+                </div>
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Seared scallops.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Seared scallops
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Escape the hustle and bustle with this exotic breakfast that will satisfy your taste buds.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$3<i>.80</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Poached salmon.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Poached salmon
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        This balance of sweet, sour and salty flavours is a hallmark of Thai cooking.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$5<i>.45</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Green curry.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Green curry
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        This balance of sweet, sour and salty flavours is a hallmark of Thai cooking.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$7<i>.70</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-title">
+                  Salads
+                </div>
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Lobster salad.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Lobster salad
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        A simple lobster salad with butter and just a hint of mayonnaise so that you can still taste the sweet lobster meat.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$6<i>.30</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Chicken & orange salad.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Chicken & orange salad
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        With juicy oranges and a yoghurt dressing, this chicken salad is a treat on any spring table.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$8<i>.50</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Winter salad.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Winter salad
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        This is a simple winter salad, fresh and crisp.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$4<i>.15</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-lunch">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Thai-style salad.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Thai-style salad
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        This is a simple winter salad, fresh and crisp.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$5<i>.05</i></span>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="menu-list__item mix category-breakfast">
+                <div class="menu-list__item-title">
+                  Morning Specialties
+                </div>
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/fruity-pancakes.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Fruity pancakes
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Coconut flakes and flaxseed give these gluten-free pancakes lots of flavor. And fresh blueberries will have you dreaming
+                        of summer, no matter how far off it is.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$5<i>.85</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-breakfast">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/eggs-benedict.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Eggs benedict
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Decadence is what makes eggs Benedict a star of the brunch table. To get there, order and timing are key.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$4<i>.50</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-breakfast">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/healty-breakfast.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Healty breakfast
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        This easy, gluten free, paleo meal prep breakfast solves all your needs for an on the go breakfast!
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$8<i>.20</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-breakfast">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/oatmeal.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Oatmeal
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Oatmeal is hands down my favorite healthy breakfast idea. Whether it’s overnight oats, steel-cut oats, or crockpot oats,
+                        we love oatmeal…and for so many reasons.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$3<i>.90</i></span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="menu-list__item mix category-breakfast">
+                <div class="menu-list__item-title">
+                  Traditional Favorites
+                </div>
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Vegetarian-Omelet.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Vegetarian omlet
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        We all know that breakfast is the most important meal of the day, right?! It is essential to start your day off right
+                        with protein and nutrient-dense vegetables, and what better way than with vegetarian omelets?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$6<i>.10</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-breakfast">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/american-breakfast.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        American breakfast
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Full American Breakfast on white, fried eggs, roasted bacon, hash brown, pancakes, orange juice and coffee for breakfast.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$6<i>.00</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-breakfast">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/vegetarian-burrito.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Vegetarian burrito
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Bored with the usual breakfast routine? Vegetarian breakfast burritos make for a fun breakfast if you're tired of the
+                        usual cereal or pancakes, and kids love them too.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$5<i>.50</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-breakfast">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/waffles.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Waffles
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Simple, wholesome waffle recipe that is sugar free and made with 100% whole wheat flour.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$3<i>.90</i></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-list__item mix category-drinks">
+                <div class="menu-list__item-title">
+                  Coffe
+                </div>
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/latte.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Latte
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Latte (short for "caffè latte") is a larger drink, with the same amount of espresso, but with more milk and a varying amount
+                        of foam, served in a large cup or tall glass.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$3<i>.40</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-drinks">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/cappuccino.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Cappuccino Freddo
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Cappuccino Freddo is the cold version of a cappuccino, and the drink usually has a small amount of cold frothed milk
+                        atop it. This drink is widely available in Greece, Cyprus and parts of Italy.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$3<i>.30</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-drinks">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/flat-white.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Flat white
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        It is in-between a cappuccino and a caffè latte ('flat' indicating little or no foam), typically prepared with a double
+                        shot of espresso and a little latte art atop. A flat white is prepared with a milder espresso and no robusta.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$4<i>.00</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-drinks">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/latte.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Americano
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Espresso shots are topped with hot water to produce a light layer of crema in true European style.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$1<i>.80</i></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-list__item mix category-drinks">
+                <div class="menu-list__item-title">
+                  Refreshing drinks
+                </div>
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/orange-juice.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Orange juice
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Fresh squeezed orange juice is a wonderful treat. A far cry from what passes as orange juice at the grocery store, the
+                        real deal is incredibly fruity, sweet, and is loaded with Vitamin C.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$2<i>.40</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-drinks">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/tomato-juice.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Tomato juice
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        The beneficial properties of tomato juice are due to the rich vitamin and mineral composition.
+                        It has strong antioxidant properties that protect your health from various diseases.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$1<i>.40</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-drinks">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/apple-juice.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Apple juice
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Whole apples are an extremely healthy food, but apple juice has pros.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$1<i>.80</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-drinks">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/lemonade.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        lemonade
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Sip this classic from a frosty glass. Its homemade flavor is worth every squeeze!
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$2<i>.50</i></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu-list__item mix category-deserts">
+                <div class="menu-list__item-title">
+                  Author's desserts
+                </div>
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/tiramisu.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Tiramisu
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Tiramisu is an elegant and rich layered Italian dessert made with delicate ladyfinger cookies, espresso or instant
+                        espresso, mascarpone cheese, eggs, sugar, Marsala wine, rum and cocoa powder.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$4<i>.40</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-deserts">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/lemon-cake.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Lemon cake
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Everyone can agree that lemons are refreshing and healthy. Therefore, a lemon cake must also be refreshing and healthy!
+                        It’s just a logical conclusion.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$3<i>.90</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-deserts">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/Nutella-Cheesecake.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Nutella cheesecake
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        This Nutella Cheesecake tastes like it came from a gourmet bakery
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$4<i>.10</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-deserts">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/croissants.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Croissants
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Croissants are small sweet crescent-shaped buns that are perfect for breakfast.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$2<i>.20</i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-list__item mix category-deserts">
+                <div class="menu-list__item-line">
+                  <div class="menu-list__item-line_info">
+                    <div class="menu-list__item-line_images">
+                      <img src="images/menu-list/waffles.jpg" alt="">
+                    </div>
+                    <div class="menu-list__item-line_box">
+                      <div class="menu-list__item-line_title">
+                        Waffles
+                      </div>
+                      <div class="menu-list__item-line_text">
+                        Simple, wholesome waffle recipe that is sugar free and made with 100% whole wheat flour.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="menu-list__item-line_price">
+                    <span>$3<i>.90</i></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner wow fadeInUp">
+          <a class="footer__logo logo" href="#logo">
+            Renome
+          </a>
+          <div class="footer__copy">
+            Copyright 2020 Renome by <span>Estetiq</span> // layout by <span>Vitalii Plechak</span>
+          </div>
+          <div class="footer__social">
+            <div class="footer__social-text">
+              Follow:
+            </div>
+            <div class="footer__social-icons">
+              <a class="footer__social-icons_telegram icon-paper-plane-o" href="https://teleg.run/vitalii_plechak"
+                target="_blank"></a>
+              <a class="footer__social-icons_instagram icon-instagram" href="https://www.instagram.com/plechak__98/"
+                target="_blank"></a>
+              <a class="footer__social-icons_linkedin icon-linkedin" href="https://www.linkedin.com/in/vplechak/"
+                target="_blank"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <a id="topBtn">
+    <i class="icon-arrow-up"></i>
+  </a>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
