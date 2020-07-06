@@ -15,6 +15,7 @@
     margin: 0 auto;
   }
 }
+
 @media (max-width: 1140px){
   .blog__page-wrapper{
     padding: 60px 0;
@@ -43,6 +44,7 @@
     margin-bottom: 35px;
   }
 }
+
 @media (max-width: 1024px){
   .slider__text{
     bottom: 60px;
@@ -246,7 +248,7 @@
     line-height: 16px;
   }
   .header__form{
-    top: 15px;
+    top: 10px;
   }
   .footer__inner{
     flex-direction: column-reverse;
@@ -270,12 +272,6 @@
 }
 
 @media (max-width: 870px){
-  // .about__content,
-  // .menu__content,
-  // .reservation__content,
-  // .contact__content,
-  // .history__content,
-  // .goals__content 
   .content-inner {
     margin-left: unset;
     margin: 40px auto 0;
@@ -283,14 +279,6 @@
     width: 80%;
     padding-left: unset;
   }
-  // .about__inner,
-  // .menu__inner,
-  // .comment__inner,
-  // .reservation__inner,
-  // .services__box-inner,
-  // .contact__inner,
-  // .history__inner,
-  // .goals__inner 
   .section__content-inner {
     flex-direction: column;
     justify-content: center;
@@ -325,15 +313,6 @@
   .comment__text{
     padding-top: 60px;
   }
-  // .about,
-  // .menu,
-  // .reservation,
-  // .services,
-  // .blog,
-  // .contact,
-  // .lunch,
-  // .history,
-  // .goals 
   .section {
     padding: 60px 0;
   }
@@ -376,7 +355,6 @@
     }
   }
   .reservation-form{
-    
     .icon-clock-o{
       margin-top: 25px;
     }
@@ -414,8 +392,6 @@
     margin: 8px auto 0; 
   }
    
-
-
   @media (max-height: 500px) {
     .page__404-text {
       font-size: 180px;
@@ -432,7 +408,6 @@
     }
   }
 }
-
 
 @media (max-width: 710px) {
   .slider__text {
@@ -610,7 +585,6 @@
     
   }
   
-
   @media (max-height: 500px) {
     .page__404-text {
       font-size: 140px;
@@ -696,11 +670,6 @@
   .reservation__images-second {
     max-height: 240px;
   }
-  // .about__content,
-  // .menu__content,
-  // .reservation__content,
-  // .contact__content,
-  // .history__content 
   .content-inner {
     width: 100%;
   }
@@ -723,14 +692,6 @@
       width: 100%;
     }
   }
-  // .about,
-  // .reservation,
-  // .services,
-  // .blog,
-  // .contact,
-  // .lunch,
-  // .history,
-  // .goals 
   .section {
     padding: 40px 0;
   }
@@ -910,16 +871,12 @@
     }
   }
 }
+
 @media (max-width: 350px){
   .header__form {
     left: -180px;
   }
 }
-
-
-
-
-
 
 @media (min-width: 711px){
   .slick-dots{

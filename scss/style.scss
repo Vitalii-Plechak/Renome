@@ -135,6 +135,7 @@
 // end header
 
 // start slider
+
 .slider{
   &__item{
     &-images{
@@ -194,6 +195,13 @@
     cursor: pointer;
     bottom: 120px;
     z-index: 2;
+    &::before{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+    }
   }
   .slick-next{
     left: 80px;
@@ -206,6 +214,7 @@
 // end slider
 
 // start about
+
 .about,
 .menu,
 .reservation,
@@ -274,6 +283,7 @@
 // end about
 
 // start lunch
+
 .lunch{
   padding: 100px 0;
   background-color: #f7f7f7;
@@ -363,6 +373,7 @@
 // end lunch
 
 // start menu
+
 .menu{
   padding: 100px 0 50px;
 }
@@ -397,6 +408,7 @@
 // end menu
 
 // start comment
+
 .comment{
   position: relative;
   &::before{
@@ -408,7 +420,6 @@
     width: 100%;
     z-index: -1;
   }
-  
   &__inner{
     padding: 50px 0 100px;
     display: flex;
@@ -448,6 +459,7 @@
 // end comment
 
 // start reservation
+
 .reservation__images-first{
   left: 0;
   margin-left: unset;
@@ -470,6 +482,7 @@
 // end reservation
 
 // start services
+
 .services__title{
   padding-bottom: 70px;
   text-align: center;
@@ -508,6 +521,7 @@
 // end services
 
 // start blog
+
 .blog{
   padding-top: 100px;
   padding-bottom: 100px;
@@ -585,6 +599,7 @@
 // end blog
 
 // start contact
+
 .contact__inner{
   flex-direction: row-reverse;
 }
@@ -619,6 +634,7 @@
 // end contact
 
 // start footer
+
 .footer{
   min-height: 100px;
   background-color: #edeff2;
@@ -683,6 +699,7 @@
 // end footer
 
 // start about__page
+
 .about__page,
 .contact__page,
 .menu__page,
@@ -741,6 +758,7 @@
 // end about__page
 
 // start goals
+
 .goals{
   border-top: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;
@@ -771,6 +789,7 @@
 // end goals
 
 // start opening-hours
+
 .opening-hours{
   padding: 100px 0;
   &__inner{
@@ -863,8 +882,8 @@
 // end opening-hours
 
 // start contact__page
+  // start happy
 
-// start happy
   .happy__inner{
     flex-direction: row-reverse;
   }
@@ -892,9 +911,9 @@
     text-align: right;
   }
 
-// end happy
+  // end happy
 
-// start contact__page-info
+  // start contact__page-info
 .contact__page-info{
   &__inner{
     display: flex;
@@ -1027,12 +1046,11 @@
   }
 }
 
-// end start contact__page-info
-
+  // end start contact__page-info 
 // end contact__page
 
 // start menu page
-// start discover
+  // start discover
 .discover__inner{
   flex-direction: row-reverse;
 }
@@ -1060,9 +1078,10 @@
   max-height: 260px;
 }
 
-// end discover
+  // end discover
 
-// start menu-list__button
+  // start menu-list__button
+
 .menu-list,
 .portfolio-list {
   &__button{
@@ -1119,9 +1138,8 @@
     }
   }
 }
-// end menu-list__button
-
-// start menu-list__box
+  // end menu-list__button
+  // start menu-list__box
 .menu-list__box{
   padding: 70px 0 100px;
 }
@@ -1185,14 +1203,13 @@
   }
 }
 
-// end menu-list__box
-
+  // end menu-list__box
 // end menu page
 
 
 // start reservation-page
+  // start online
 
-// start online
 .reservation__images-first{
   max-width: 347px;
   max-height: 231px;
@@ -1341,14 +1358,11 @@
   }
 }
 
-// end online
-
+  // end online
 // end reservation-page
 
-
 // start blog
-
-// start blog-aside
+  // start blog-aside
 .blog__page-wrapper{
   padding: 100px 0;
 }
@@ -1392,7 +1406,6 @@
     }
   }
 }
-
 .blog-aside__categories-title,
 .blog-aside__popular-title {
   text-transform: uppercase;
@@ -1499,9 +1512,9 @@
   }
 }
 
-// end blog-aside
+  // end blog-aside
 
-// start blog-content
+  // start blog-content
 .blog-content__inner{
   max-width: 700px;
   width: 100%;
@@ -1585,11 +1598,11 @@
   }
 }
 
-// end blog-content
-
+  // end blog-content
 // end blog
 
 // start blog-post
+
 .likely-big .likely__widget {
   background-color: transparent;
 
@@ -1599,7 +1612,6 @@
   fill: $brown;
  }
 }
-
 .blog-content__more{
   border-top: 1px solid #edeff2;
   margin-top: 55px;
@@ -1638,7 +1650,6 @@
     height: 150px;
   }
 }
-
 .blog-content__comment{
   border-top: 1px solid #edeff2;
   padding: 25px 0;
@@ -1697,8 +1708,6 @@
   letter-spacing: 1.5px;
   line-height: 30px;
 }
-
-
 .blog-content__leaver-comment{
   border-top: 1px solid #edeff2;
   padding: 25px 0;
@@ -1752,6 +1761,7 @@
 // end blog-post
 
 // start portfolio page
+
 .portfolio-list__inner{
   padding: 100px 0;
 }
@@ -1818,10 +1828,10 @@
 // end portfolio page
 
 // start 404 page
+
 .page__404-images_box{
   height: 100vh;
 }
-
 .page__404-text{
   font-size: 300px;
   line-height: 300px;
@@ -1853,7 +1863,5 @@
 } 
 
 // end 404 page
-
-
 
 @import 'media';
