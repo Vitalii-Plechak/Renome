@@ -1287,7 +1287,7 @@
     color: $title;
     padding-left: 35px;
   }
-  .reservation-form__people{
+  .jq-selectbox .jqselect{
     z-index: 1;
   }
   .jq-selectbox__select {
@@ -1357,7 +1357,23 @@
     background-color: $title;
   }
 }
-
+.xdsoft_datetimepicker.xdsoft_noselect.xdsoft_ {
+  min-width: 200px;
+}
+.xdsoft_datetimepicker .xdsoft_timepicker {
+  width: 100%;
+  padding-right: 8px;
+}
+.xdsoft_datetimepicker .xdsoft_datepicker {
+  width: 100%;
+  padding-right: 8px;
+}
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_prev {
+  margin: 0 auto 8px;
+}
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_next {
+  margin: 8px auto 0;
+}
   // end online
 // end reservation-page
 

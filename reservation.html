@@ -99,9 +99,16 @@
               Make a Reservation
             </div>
             <div class="reservation-form__box">
-              <form class="wow fadeInUp">
-                <label class="icon-calendar"><input class="reservation-form__date" id="datetimepicker" type="text" placeholder="00/00/0000" autocomplete="off" required></label>
-                <label class="icon-clock-o"><input class="reservation-form__time" id="datetimepicker2" type="text" placeholder="00:00" autocomplete="off" required></label>
+              <form class="wow fadeInUp" id="form-reservation">
+
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Renome">
+                <input type="hidden" name="admin_email" value="vitalii.plechak@gmail.com">
+                <input type="hidden" name="form_subject" value="Reservation Form">
+                <!-- END Hidden Required Fields -->
+
+                <label class="icon-calendar"><input class="reservation-form__date" id="datetimepicker" type="text" name="Date" placeholder="00/00/0000" autocomplete="off" required></label>
+                <label class="icon-clock-o"><input class="reservation-form__time" id="datetimepicker2" type="text" name="Time" placeholder="00:00" autocomplete="off" required></label>
                 <select class="reservation-form__people" name="People" required>
                   <option>1-2 People</option>
                   <option>2-4 People</option>
